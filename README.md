@@ -1,0 +1,1 @@
+This project serves as a 'boilerplate' for creating Sencha Touch applications.
