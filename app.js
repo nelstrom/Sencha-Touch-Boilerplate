@@ -6,9 +6,11 @@ Ext.application({
     name: 'Sencha',
 
     controllers: ['Main'],
-    views: ['Viewport'],
+    views: ['Main'],
 
     launch: function() {
-        Ext.create('Sencha.view.Viewport');
+        Ext.Viewport.add({
+            xclass: 'Sencha.view.Main'
+        });
     }
 });
