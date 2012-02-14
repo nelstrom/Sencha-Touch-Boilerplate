@@ -1,4 +1,4 @@
-This starter kit provides two alternate HTML files: `index.html` loads the libraries locally; `hosted.html` loads the Touch JS/CSS libraries from [Sencha's content delivery network][cdn] (CDN).
+This starter kit provides two alternate HTML files: `index.html` loads the libraries locally; `hosted.html` loads the Touch JS/CSS libraries from [Sencha's content delivery network][cdn] (CDN). Additionally, a `production.html` file is included too, but you will have to build the `app-all.js` file to make this work (see below for instructions).
 
 Using Sencha's CDN means that you don't have to download the Sencha Touch SDK, but it does require an internet connection. The `hosted.html` file is provided for convenience, but you'll have a better development experience if you use a local copy of the Sencha Touch SDK. Follow these instructions to [install the Sencha Touch libraries][installation].
 
