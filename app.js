@@ -4,9 +4,10 @@ Ext.Loader.setConfig({
 
 Ext.application({
     name: 'Sencha',
-    
+
     controllers: ['Main'],
-    
+    views: ['Viewport'],
+
     launch: function() {
         Ext.create('Sencha.view.Viewport');
     }
